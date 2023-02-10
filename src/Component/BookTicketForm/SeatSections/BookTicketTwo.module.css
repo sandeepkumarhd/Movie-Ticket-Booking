@@ -1,0 +1,27 @@
+.secondSection section{
+    width: 65rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+.secondSection h1{
+   text-align: center;
+ }
+
+ .secondSection button{
+    padding: 0.8rem;
+    margin: 0.4rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.7rem; 
+ }
+ .secondSection button:focus{
+    background-color: rgba(156, 180, 17, 0.811);
+ }
+ .secondSection .disabled{
+   background-color: red;
+   color: white;
+ 
+ }

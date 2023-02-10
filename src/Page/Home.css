@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 13vh;
+  width: 100%;
+}
+.movies div {
+  height: 25rem;
+  width: 20rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3rem;
+  align-items: center;
+  background-color: rgb(77, 14, 47);
+}
+.movies div img{
+  height: 220px;
+  width: 250px;
+  border-radius: 20%;
+  margin-top: 1rem;
+}
+.movies div button {
+  padding: 10px 20px;
+  font-size: 19px;
+  margin-bottom: 2rem ;
+  border: none;
+  border-radius: 2rem;
+}
+.movies div button:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+  color: rgb(8, 56, 104);
+  font-weight: bolder;
+}
+.movies div p {
+  text-align: center;
+  font-size: 22px;
+  /* margin: 1rem 0; */
+  color: beige;
+}
+.movies div p span {
+  color: rgb(39, 136, 172);
+  font-weight: bolder;
+}

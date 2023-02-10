@@ -1,0 +1,8 @@
+.conform button{
+    height: 50px;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin-top: 25vh; */
+}

@@ -1,0 +1,29 @@
+.thirdSection section{
+    width: 65rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+.thirdSection h1{
+   text-align: center;
+ }
+
+ .thirdSection button{
+    padding: 0.8rem;
+    margin: 0.4rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.7rem; 
+    border: 2px red solid; 
+ }
+
+ .thirdSection button:focus{
+    background-color: rgba(146, 60, 29, 0.811);
+ }
+ .thirdSection .disabled{
+   background-color: red;
+   color: white;
+ 
+ }

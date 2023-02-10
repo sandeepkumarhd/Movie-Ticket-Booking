@@ -1,0 +1,35 @@
+.show button {
+  padding: 0.6rem 1rem;
+  margin: 3vh;
+  border: none;
+  border-radius: 2rem;
+  font-size: 19px;
+}
+.show button:hover {
+  background-color: chartreuse;
+  color: aliceblue;
+  cursor: pointer;
+}
+.show {
+  margin-top: -19vh;
+  height: auto;
+  width: 60%;
+  margin:11vh auto;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 10px 10px;
+  background-color: rgb(147, 124, 231);
+}
+.show p{
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+}
+.show h2{
+ color: rgb(11, 11, 181);
+}
+.movie h3 {
+  color: yellow;
+}
+.movie h3 span{
+  color: rgb(47, 17, 178);
+}

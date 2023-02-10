@@ -1,0 +1,39 @@
+ .firstSection section{
+    width: 65rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .firstSection div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .firstSection button{
+    padding: 0.8rem;
+    margin: 0.4rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.7rem; 
+    border: 2px red solid; 
+ }
+
+
+
+.firstSection button:focus{
+   background-color: rgba(146, 60, 29, 0.811);
+}
+
+.firstSection .disabled{
+  background-color: red;
+  color: white;
+
+}
+
+
+
+
+ 

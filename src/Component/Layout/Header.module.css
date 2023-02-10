@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(217, 10, 10, 0.584);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+}
+header ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+header ul li {
+    list-style: none;
+    font-size: 22px;
+}
+header ul li a{
+    text-decoration: none;
+}
+li a:hover {
+  color: rgba(249, 246, 246, 0.619);
+}
+
+li a:focus {
+  color: yellow;
+}
