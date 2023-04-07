@@ -6,22 +6,20 @@
 .movie {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
   margin-top: 13vh;
   width: 100%;
 }
 .movies div {
-  height: 25rem;
-  width: 20rem;
-  margin: 0.5rem;
+  height: 25vh;
+  width: 100%;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border-radius: 3rem;
+  border-radius: 1rem;
   align-items: center;
-  background-color: rgb(77, 14, 47);
+  background-color: rgb(113, 76, 95);
 }
-.movies div img{
+.movies div img {
   height: 220px;
   width: 250px;
   border-radius: 20%;
@@ -30,7 +28,7 @@
 .movies div button {
   padding: 10px 20px;
   font-size: 19px;
-  margin-bottom: 2rem ;
+  margin-bottom: 2rem;
   border: none;
   border-radius: 2rem;
 }
@@ -43,10 +41,46 @@
 .movies div p {
   text-align: center;
   font-size: 22px;
-  /* margin: 1rem 0; */
   color: beige;
 }
 .movies div p span {
   color: rgb(39, 136, 172);
   font-weight: bolder;
+}
+@media (max-width: 425px) {
+  .movies div {
+    height: 43.5vh;
+    width: 85%;
+    border-radius: 1rem;
+    background-color: rgb(77, 14, 47);
+  }
+  .movies div img {
+    height: 60px;
+    width: 60px;
+    border-radius: 2%;
+    margin-top: 1rem;
+  }
+  .movies div p {
+    text-align: center;
+    font-size: 1rem;
+    color: beige;
+  }
+  .movies div button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+  }
+  .movie {
+    margin-top: 10vh;
+    background-color: rgb(240, 239, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .movies{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

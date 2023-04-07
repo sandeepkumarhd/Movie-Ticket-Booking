@@ -1,6 +1,7 @@
 import BookTicketOne from "./SeatSections/BookTicketOne";
 import BookTicketThree from "./SeatSections/BookTicketThree";
 import BookTicketTwo from "./SeatSections/BookTicketTwo";
+import Home from "../../Page/Home";
 import classes from "./AllMovieSeat.module.css";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";

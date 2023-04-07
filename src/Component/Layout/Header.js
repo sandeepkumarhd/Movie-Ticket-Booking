@@ -6,7 +6,7 @@ const Header = () => {
       <ul>
         <li><h1>Ticket Booking App</h1></li>
         <li>
-          <Link to={"/home"}>Home</Link>
+          <Link to={"/"}>Home</Link>
         </li>
       </ul>
     </header>

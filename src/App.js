@@ -3,13 +3,12 @@ import { BrowserRouter } from "react-router-dom";
 import Home from "./Page/Home";
 import ShowTotal from "./Page/ShowTotal";
 import AllMovieSeat from "./Component/BookTicketForm/AllMovieSeat";
-import Layout from "./Component/Layout/Layout";
 import Header from "./Component/Layout/Header";
 function App() {
   return (
     <BrowserRouter>
       <Header/>
-        <Route path={"/home"} exact>
+        <Route path={"/"} exact>
           <Home />
         </Route>
         <Route path={"/allmovieseat"}>

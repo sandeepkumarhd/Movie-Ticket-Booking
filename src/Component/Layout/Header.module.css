@@ -6,7 +6,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(217, 10, 10, 0.584);
+  background-color: rgb(127, 121, 137);
   width: 100%;
   position: fixed;
   top: 0;
@@ -33,4 +33,16 @@ li a:hover {
 
 li a:focus {
   color: yellow;
+}
+
+@media (max-width: 425px) {
+  header ul li a{
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
+}
+h1{
+  font-size: 2rem;
+ 
+}
 }

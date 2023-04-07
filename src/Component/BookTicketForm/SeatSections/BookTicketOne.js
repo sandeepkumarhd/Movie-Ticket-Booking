@@ -1,7 +1,6 @@
 import style from "./BookTicketOne.module.css";
-import { useState } from "react";
 import { reducerAction } from "../../../store/ticketStore";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 const BookTicketOne = () => {
   const dispetch = useDispatch();
 

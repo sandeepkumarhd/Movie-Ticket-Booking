@@ -27,3 +27,21 @@
    color: white;
  
  }
+ @media (max-width: 425px) {
+   .thirdSection section{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   .thirdSection button{
+      padding: 0.8rem;
+      margin: 0.4rem;
+      background-color: rgb(92, 117, 227);
+      color: rgb(14, 1, 36);
+      border-radius: 0.7rem; 
+      border: 2px red solid; 
+   }
+ }

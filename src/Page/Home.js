@@ -11,7 +11,6 @@ const Home = () => {
     history.push("/allmovieseat");
   };
   const movieList = MOVIE_DATA.map((ele,index) => {
-    console.log(ele)
     return (
       <div className="movies" key={index}>
        

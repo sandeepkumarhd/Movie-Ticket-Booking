@@ -14,7 +14,7 @@ const ShowTicketPrice = () => {
   const seconds = useSelector((store) => store.seconds);
   const history = useHistory();
   const conformHandler = () => {
-    history.replace("/home");
+    history.replace("/");
     alert("Booking Succesfull...!!");
   };
   const sectionASeats = sectionA.map((seats, index) => {
@@ -36,17 +36,17 @@ const ShowTicketPrice = () => {
           <p>Timer</p>
           <p>Minutes : {minutes} Seconds : {seconds}</p>
         </div>
-        <h2>Section A Seat Number</h2>
+        <h2>Section A Seats</h2>
         <div>
           <p> Seat Number : {sectionASeats}</p>
         </div>
 
-        <h2>Section B Seat Number</h2>
+        <h2>Section B Seats </h2>
         <div>
           <p> Seat Number : {sectionBseats}</p>
         </div>
 
-        <h2>Section C Seat Number</h2>
+        <h2>Section C Seats</h2>
         <p> Seat Number : {sectionCseats}</p>
         <h3>No Of Ticket</h3>
         {ticket}

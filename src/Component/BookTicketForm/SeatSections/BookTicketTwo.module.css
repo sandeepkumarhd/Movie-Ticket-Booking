@@ -25,3 +25,20 @@
    color: white;
  
  }
+ @media (max-width: 425px) {
+   .secondSection section{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   .secondSection button{
+      padding: 0.8rem;
+      margin: 0.4rem;
+      background-color: rgb(115, 115, 230);
+      color: rgb(7, 1, 48);
+      border-radius: 0.7rem; 
+   }
+ }

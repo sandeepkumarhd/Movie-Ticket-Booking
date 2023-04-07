@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 .show {
-  margin-top: -19vh;
+  /* margin-top: -19vh; */
   height: auto;
   width: 60%;
   margin:11vh auto;
@@ -32,4 +32,7 @@
 }
 .movie h3 span{
   color: rgb(47, 17, 178);
+}
+@media (max-width: 425px) {
+  
 }
