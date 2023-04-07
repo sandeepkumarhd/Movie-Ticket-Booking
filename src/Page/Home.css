@@ -8,20 +8,22 @@
   flex-wrap: wrap;
   margin-top: 13vh;
   width: 100%;
+  justify-content: center;
 }
 .movies div {
-  height: 25vh;
-  width: 100%;
-  margin: 1rem auto;
+  height: 60vh;
+  width: 90%;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   border-radius: 1rem;
+
   align-items: center;
   background-color: rgb(113, 76, 95);
 }
 .movies div img {
-  height: 220px;
-  width: 250px;
+  height: 180px;
+  width: 220px;
   border-radius: 20%;
   margin-top: 1rem;
 }
@@ -49,7 +51,7 @@
 }
 @media (max-width: 425px) {
   .movies div {
-    height: 43.5vh;
+    height: 40.5vh;
     width: 85%;
     border-radius: 1rem;
     background-color: rgb(77, 14, 47);
