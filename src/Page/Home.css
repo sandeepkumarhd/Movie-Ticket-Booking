@@ -11,7 +11,7 @@
   justify-content: center;
 }
 .movies div {
-  height: 60vh;
+  height: 21rem;
   width: 90%;
   margin-top: 1rem;
   display: flex;
@@ -22,8 +22,8 @@
   background-color: rgb(113, 76, 95);
 }
 .movies div img {
-  height: 180px;
-  width: 220px;
+  height: 150px;
+  width: 200px;
   border-radius: 20%;
   margin-top: 1rem;
 }
@@ -51,16 +51,17 @@
 }
 @media (max-width: 425px) {
   .movies div {
-    height: 40.5vh;
-    width: 85%;
+    height: 11.5rem;
+    width: 75%;
+    margin-left: 1.5rem;
     border-radius: 1rem;
-    background-color: rgb(77, 14, 47);
+    background-color: rgb(11, 2, 36);
   }
   .movies div img {
     height: 60px;
     width: 60px;
     border-radius: 2%;
-    margin-top: 1rem;
+    margin-top: 0.1rem;
   }
   .movies div p {
     text-align: center;
@@ -80,9 +81,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   .movies{
-    display: flex;
-    flex-wrap: wrap;
+    width: 50%;
   }
 }
