@@ -87,3 +87,42 @@
     width: 50%;
   }
 }
+@media (max-width: 320px) {
+  .movies div {
+    text-align: center;
+    height: 11.5rem;
+    width: 85%;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(11, 2, 36);
+  }
+  .movies div img {
+    height: 60px;
+    width: 60px;
+    border-radius: 2%;
+    margin-top: 0.1rem;
+  }
+  .movies div p {
+    text-align: center;
+    font-size: 1rem;
+    color: beige;
+  }
+  .movies div button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+  }
+  .movie {
+    margin-top: 10vh;
+    background-color: rgb(240, 239, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .movies{
+    width: 50%;
+  }
+}

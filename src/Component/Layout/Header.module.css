@@ -46,3 +46,14 @@ h1{
  
 }
 }
+@media (max-width: 320px) {
+  header ul li a{
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
+}
+h1{
+  font-size: 1.7rem;
+ 
+}
+}
